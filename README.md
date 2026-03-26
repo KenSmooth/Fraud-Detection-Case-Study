@@ -82,7 +82,7 @@ Identified high-risk user patterns, developed a rule-based risk scoring system, 
 ## 🏢 Business Recommendations
 
 1. Limit account creation from heavily reused devices  
-2. Flag users with 2 + refunds within 90 days for manual review  
+2. Flag users with 2+ refunds within 90 days for manual review  
 3. Apply higher risk scores to VPN and cloud-based traffic  
 4. Increase scrutiny on newly created accounts  
 5. Use payment outcomes (chargebacks/refunds) as feedback signals  
@@ -125,6 +125,9 @@ A simple logistic regression model was trained to predict fraud likelihood using
 
 **Model Accuracy: ~98%**
 
+👉 Note: This high accuracy is expected due to the synthetic nature of the dataset and engineered signal strength.
+
+This model is intended to demonstrate the end-to-end fraud detection workflow (feature engineering → modeling → interpretation), rather than represent production-level performance.
 
 ## 🔮 Future Work
 
